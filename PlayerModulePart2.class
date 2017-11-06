@@ -1,0 +1,9 @@
+package Interface;
+
+import java.util.List;
+
+public interface PlayerModulePart2 extends PlayerModule {
+    List allLegalMoves();
+
+    int fewestSegmentsToVictory(int var1);
+}
