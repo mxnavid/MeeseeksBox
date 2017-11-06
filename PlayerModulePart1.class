@@ -1,0 +1,5 @@
+package Interface;
+
+public interface PlayerModulePart1 extends PlayerModule {
+    boolean hasWonGame(int var1);
+}
