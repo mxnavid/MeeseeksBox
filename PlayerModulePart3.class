@@ -1,0 +1,5 @@
+package Interface;
+
+public interface PlayerModulePart3 extends PlayerModule {
+    boolean isWinnable(int var1, int var2, int var3);
+}
